@@ -12,11 +12,8 @@ Includes columns such as title, author, school, sentence_str, original_publicati
 Due to its large size, this file is not stored in the GitHub repository. You can download it from the following link:
 
 Download philosophy_data.csv
-
 philosopher.csv
-
-Represents relationships between philosophers, useful for network analysis.
-
+It represents relationships between philosophers and is useful for network analysis.
 Contains columns: A (Philosopher A), B (Philosopher B), and Weight (strength of influence between A and B).
 
 Features
