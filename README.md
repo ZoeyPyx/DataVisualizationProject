@@ -19,14 +19,6 @@ To run the interactive Dash app, execute:
 python3 WordTrend.py
 This will launch a local server, and you can interact with the dashboard in your web browser.
 
-Repository Structure
-├── data/			# Raw and processed datasets
-├── code/		
-  ├── project.ipynb    # Jupyter notebook file
-  ├── WordTrend.py    # Dash interactive visualization
-├── visualizations/	# Generated plots and graphs
-├── README.md		# Project overview and instruction
-
 Usage
 1. Use `app.py` to interactively explore word frequency trends over time.
    Users can input a word, and the app will filters the dataset to count how often that word appears in sentences for each publication date.
