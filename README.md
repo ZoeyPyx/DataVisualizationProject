@@ -3,6 +3,22 @@ Philosophical Text Analysis and Visualization
 Overview
 This project explores patterns and themes in philosophical discourses using data visualization and natural language processing techniques. The dataset contains sentences from philosophical works, along with metadata such as author, school of thought, and publication date. The project includes interactive and static visualizations to analyze trends in word usage, sentiment, and philosophical influences over time.
 
+Datasets
+The project uses two primary datasets:
+1. philosophy_data.csv (Too large for GitHub)
+Contains text sentences, metadata, and tokenized text from various philosophical works.
+Includes columns such as title, author, school, sentence_str, original_publication_date, sentence_length, and more.
+
+Due to its large size, this file is not stored in the GitHub repository. You can download it from the following link:
+
+Download philosophy_data.csv
+
+philosopher.csv
+
+Represents relationships between philosophers, useful for network analysis.
+
+Contains columns: A (Philosopher A), B (Philosopher B), and Weight (strength of influence between A and B).
+
 Features
 - Network Graph of Philosophers: A directed graph illustrating the relationships and influences between philosophers, focusing on the most influential figures.
 - Timeline of Philosophical Schools Publications: An interactive scatter plot displaying publications over time, categorized by school of thought.
