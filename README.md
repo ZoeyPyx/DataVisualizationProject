@@ -41,10 +41,12 @@ Ensure you have Python installed along with the required dependencies. Install t
 
 # Critical Analysis
 Limitations of the Current Approach
+
 While this project successfully visualizes influential philosophers, key concepts, and trends over time, there are several limitations:
 The dataset is limited to specific sources, potentially missing key philosophers or texts. Certain schools of thought may be underrepresented or missing, influencing the clustering results. Moreover, the choice of sentences is subjective and may not represent the themes of each school listed in the datasets (susceptible to misrepresentation). Regarding methodology, the sentiment analysis is based on TextBlob, which provides a basic polarity measure. However, philosophical texts are complex and may not be accurately represented by simple positive/negative scores.
 
 Potential Improvements and Future Directions
+
 Integrating more sources of philosophical texts could provide a more comprehensive analysis. A promising extension of this project is to integrate the philosophy_data.csv and philosopher.csv datasets by linking them through the author column. This would allow for a deeper exploration of how different philosophical schools influence each other and how the network of philosophical thought evolves.However, this approach presents several data cleaning challenges:
 a. The same philosopher may be recorded differently across the datasets (e.g., "Immanuel Kant" vs. "Kant"), requiring careful standardization.
 b. Some authors appear in only one of the datasets, meaning the merged data may not fully represent all philosophers.
