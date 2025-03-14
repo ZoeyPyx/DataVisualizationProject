@@ -51,9 +51,11 @@ Integrating more sources of philosophical texts could provide a more comprehensi
 a. The same philosopher may be recorded differently across the datasets (e.g., "Immanuel Kant" vs. "Kant"), requiring careful standardization.
 b. Some authors appear in only one of the datasets, meaning the merged data may not fully represent all philosophers.
 c. Philosophers associated with multiple schools may introduce complexity in mapping influences.
+
 Despite these challenges, developing a more structured approach to aligning the datasets would significantly enhance philosophical discourse analysis.
 
 
 # Data Source
 https://www.kaggle.com/datasets/mpwolke/cusersmarildownloadsphilosophycsv
+
 https://www.kaggle.com/datasets/kouroshalizadeh/history-of-philosophy
